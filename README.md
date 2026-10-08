@@ -29,7 +29,7 @@ learning pipelines.
 
 
 ## 🏗️ Architecture
-
+```
 Raw Transaction Data
         ↓
 Schema Validation
@@ -52,8 +52,10 @@ Quality Report
         ↓
 Streamlit Dashboard
 
-## ✨ Features
+```
 
+## ✨ Features
+```
 - Schema validation
 - Data-type validation
 - Missing-value analysis
@@ -72,7 +74,7 @@ Streamlit Dashboard
 - Automated tests
 - Logging
 - Configuration management
-
+```
 
 
 ## 📂 Project Structure
@@ -102,7 +104,7 @@ fintech-data-quality-engine/
 
 ```
 ## ⚙️ Installation
-
+```
 Clone the repository:
 
 git clone YOUR_GITHUB_REPOSITORY_URL
@@ -122,26 +124,26 @@ venv\Scripts\activate
 Install dependencies:
 
 pip install -r requirements.txt
-
+```
 ## ▶️ Run Pipeline
-
+```
 python main.py
 
 The pipeline generates:
 
 - cleaned transaction data
 - data-quality report
-
+```
 ## 📊 Run Dashboard
-
+```
 streamlit run dashboard/app.py
-
+```
 ## 🧪 Run Tests
-
+```
 pytest -q
-
+```
 ## 📈 Data Quality Checks
-
+```
 The engine evaluates:
 
 - Missing values
@@ -152,9 +154,10 @@ The engine evaluates:
 - Outliers
 - Schema consistency
 - Data-type consistency
+```
 
 ## 🎯 Business Value
-
+```
 Poor-quality financial data can negatively affect:
 
 - Financial reporting
@@ -167,8 +170,10 @@ Poor-quality financial data can negatively affect:
 FinSight provides an automated quality-control layer before
 financial data reaches downstream analytics and ML systems.
 
-## 🔮 Future Improvements
+```
 
+## 🔮 Future Improvements
+```
 - Great Expectations integration
 - Data drift detection
 - PostgreSQL integration
@@ -177,9 +182,11 @@ financial data reaches downstream analytics and ML systems.
 - ML-based anomaly detection
 - Cloud deployment
 - Real-time transaction monitoring
+```
 
 ## 👨‍💻 Author
-
+```
 Rauof Qadir
 
 Software Engineer | Data Science | Machine Learning | FinTech
+```

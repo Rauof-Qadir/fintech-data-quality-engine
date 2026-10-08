@@ -72,39 +72,35 @@ Streamlit Dashboard
 - Automated tests
 - Logging
 - Configuration management
-- Docker support
 
 
 
 ## 📂 Project Structure
 
+```
 fintech-data-quality-engine/
-│
 ├── src/
 │   ├── ingestion.py
 │   ├── validation.py
 │   ├── cleaning.py
 │   ├── outliers.py
 │   └── reporting.py
-│
 ├── data/
 │   ├── raw/
 │   ├── processed/
 │   └── reports/
-│
 ├── notebooks/
 ├── tests/
 ├── dashboard/
 │   └── app.py
-│
 ├── config.yaml
 ├── logger.py
 ├── main.py
 ├── requirements.txt
-├── Dockerfile
 ├── README.md
 └── .gitignore
 
+```
 ## ⚙️ Installation
 
 Clone the repository:

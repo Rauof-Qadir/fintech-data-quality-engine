@@ -1,0 +1,26 @@
+project:
+  name: FinTech Data Quality Engine
+  version: 1.0.0
+
+validation:
+  required_columns:
+    - transaction_id
+    - customer_id
+    - amount
+    - transaction_type
+    - merchant
+    - date
+
+  allowed_transaction_types:
+    - PAYMENT
+    - TRANSFER
+    - CASH_IN
+    - CASH_OUT
+
+cleaning:
+  remove_duplicates: true
+  remove_negative_amounts: true
+
+outliers:
+  method: IQR
+  multiplier: 1.5

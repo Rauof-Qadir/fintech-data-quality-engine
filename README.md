@@ -1,4 +1,15 @@
-# FinSight — FinTech Transaction Data Quality Engine
+# Fintech — FinTech Transaction Data Quality Engine
+
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ## 🚀 Overview
 
@@ -9,6 +20,13 @@ monitor data-quality issues in financial transaction datasets.
 The system simulates a production-style data-quality workflow
 that can be used before downstream analytics and machine
 learning pipelines.
+
+
+![missing_values](data/reports/screenshots/missing_values.png)
+![outliers](data/reports/screenshots/outliers.png)
+![transactions](data/reports/screenshots/transactions.png)
+![validations](data/reports/screenshots/validations.png)
+
 
 ## 🏗️ Architecture
 
@@ -56,17 +74,7 @@ Streamlit Dashboard
 - Configuration management
 - Docker support
 
-## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-- Pytest
-- YAML
-- Docker
-- Git & GitHub
 
 ## 📂 Project Structure
 
@@ -179,7 +187,3 @@ financial data reaches downstream analytics and ML systems.
 Rauof Qadir
 
 Software Engineer | Data Science | Machine Learning | FinTech
-![missing_values](data/reports/screenshots/missing_values.png)
-![outliers](data/reports/screenshots/outliers.png)
-![transactions](data/reports/screenshots/transactions.png)
-![validations](data/reports/screenshots/validations.png)
